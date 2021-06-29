@@ -1,0 +1,20 @@
+{
+  "name": "WebScrapping_withJS",
+  "version": "1.0.0",
+  "description": "Cricinfo WebScrapper\r 1. Build a web scraper that scrapes details of BatsMan of each team that played in a world cup ipl.\r 2. Request package was used to make parallel requests to the server and cheerio is used to extract data out of it\r 3. Nodejs fs module was used to create directories of each team and xlsx module is used to create excel file for each Player",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tanisha088/WebScrapping_withJS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tanisha088/WebScrapping_withJS/issues"
+  },
+  "homepage": "https://github.com/tanisha088/WebScrapping_withJS#readme"
+}
