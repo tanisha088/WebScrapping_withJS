@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/tanisha088/WebScrapping_withJS/issues"
   },
-  "homepage": "https://github.com/tanisha088/WebScrapping_withJS#readme"
+  "homepage": "https://github.com/tanisha088/WebScrapping_withJS#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "request": "^2.88.2",
+    "xlsx": "^0.17.0",
+    "xlsx-style": "^0.8.13"
+  }
 }
