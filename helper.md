@@ -9,4 +9,10 @@ browser -> requests DNS -> get the IP -> then sends the request to the IP -> and
 
 5. npm -> consists of modules -> we will be using fs,cheeros,xslx,request
 
-6. 
+6. async version -> diff from sync in the sense that if fs.readFileASync() used instead of Sync() then, the ordering of printing of the results would be different .So, on using this , the read file thing would happen , but the results will only be printed out after everything else present after the async call has been done. This is because async calls through callbacks and hence, the time to actually execute the callbacks exceeds that taken up by the normal further commands to print the req results and hence if async used , then the file contents would be displayed at the last.
+
+7. Request module -> request(url,callback_fn_address)
+
+8. For the css selector used in the function extractLink in main.js , go to the site url , do page inspect, ctrl+f and put the value inside the quotes there. We will be able to reach the line with the url of the results page in it .. achieving where we really wanted to be.
+
+9. 
